@@ -1,0 +1,21 @@
+body {
+  font-family: calibri;
+  font-size: 120%;
+  background-color: grey;
+  background-color: rgba(225, 228, 232,1);
+  color: black;
+  color: rgba(0, 0, 0, 1);
+}
+p {
+  background-color: grey;
+  background-color:rgba(40, 108, 108,0.7);
+}
+hr {
+  border-style: dotted none none;
+  border-width: thick;
+  border-color: teal;
+  width: 20%;
+}
+img{
+  border-radius: 75px;
+}
