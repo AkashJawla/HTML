@@ -16,6 +16,32 @@ hr {
   border-color: teal;
   width: 20%;
 }
-img{
+/*img{
   border-radius: 75px;
+}
+*/
+
+.roundImage {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+}
+
+.zoom:hover {
+  height: 400px;
+  width: 400px;
+  border-radius: 0px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.dispImage {
+  height: 150px;
+  width: 150px;
+}
+
+#myName{
+  color: grey;
+  color:rgba(40, 108, 108,1);
 }
