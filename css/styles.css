@@ -25,15 +25,18 @@ hr {
   border-radius: 75px;
   height: 150px;
   width: 150px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .zoom:hover {
   height: 400px;
   width: 400px;
-  border-radius: 0px;
+  border-radius: 0;
   position: fixed;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
+
 }
 
 .dispImage {
