@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family:  'Roboto',sans-serif;
-  
+
 }
 
 .topDiv {
@@ -42,8 +42,10 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento',cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
 }
 
 hr {
@@ -55,6 +57,17 @@ hr {
 
 .line2 {
   font-family: 'Lemonada',serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
 }
 
 .dev {
