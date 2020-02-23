@@ -6,33 +6,38 @@ body {
 }
 
 .topDiv {
-  background-color: #dff6f0;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 
 }
 
+.bottomDiv {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.myDisc {
+  color: #40514E;
+}
+
 .roundImage {
-  border-radius: 75px;
-  height: 150px;
-  width: 150px;
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   object-position: center top;
 }
 
-.midDiv {
-
-}
-
-
-.bottomDiv {
-
+.skillImage {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin: 0 30px 0 0;
 }
 
 .list {
   text-align: left;
-  width: 50%;
-  display: inline-block;
 
 }
 
@@ -51,7 +56,7 @@ h1 {
 hr {
   border-style: dotted none none;
   border-width: thick;
-  border-color: teal;
+  border-color: #EAF6F6;
   width: 20%;
 }
 
@@ -60,6 +65,7 @@ hr {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+
 }
 
 h3 {
@@ -84,4 +90,19 @@ a{
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+}
+
+.footer-link {
+    margin: auto 10px auto 10px;
+}
+
+.lastText {
+  color: #EAF6F6;
 }
