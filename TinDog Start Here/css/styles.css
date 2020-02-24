@@ -2,6 +2,7 @@
   background-color: #ff4c68
 }
 
+
 body {
   font-family: 'Ubuntu' ;
 
@@ -11,4 +12,33 @@ body {
   font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
+  color: white;
+  margin-top: 50px;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  height: 650px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.iphonepic {
+  position: relative;
+  transform: rotate(30deg);
+  background-size: cover;
+
+  height: auto;
+  width: 400px;
+}
+
+.btnDown {
+  margin: 10px 15px;
 }
