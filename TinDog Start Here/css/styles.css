@@ -1,24 +1,33 @@
+body {
+  font-family: 'Ubuntu',sans-serif ;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
 .titleSec {
   background-color: #ff4c68;
   color: white;
+  text-align: left;
+}
 
+.titleSec .container-fluid{
+  padding: 3% 15% 7%;
 }
 
 
-body {
-  font-family: 'Ubuntu',sans-serif ;
-
-}
-
-.titleText {
+.bigText {
   font-family: "Montserrat";
+  font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
 .container-fluid{
-  padding: 3% 15% 7%;
-
+  padding: 7% 15%;
 }
 
 .navbar {
@@ -38,7 +47,6 @@ body {
 }
 
 .iphonepic {
-  position: relative;
   transform: rotate(25deg);
 position: absolute;
   height: auto;
@@ -46,32 +54,40 @@ position: absolute;
   right: 30%;
 }
 
+@media (max-width:1028px) {
+#title {
+  text-align: center;
+}
+
+  .iphonepic {
+transform: rotate(0);
+  position: static;
+
+  }
+}
+
 .btnDown {
   margin: 5% 1.5%;
 }
 
 #features {
-  padding: 7% 15%;
-  position: relative;
 
+  position: relative;
   background-color: white;
 }
 
+ .feature-title{
+   font-size: 1.5rem;
+ }
+
 .box-features {
   line-height: 2.5rem;
-  text-align: center;
+
 }
 
 
 .subText {
   color: #8f8f8f;
-}
-
-
-h3{
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .ficon {
@@ -84,17 +100,13 @@ h3{
 
 #testimonials {
 
-  text-align: center;
+
   background-color: #ef8172;
   color: white;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
-h2 {
-  font-weight: bold;
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -107,7 +119,7 @@ h2 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -118,9 +130,44 @@ h2 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+
 }
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+.priceText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta {
+
+  background-color: #ff4c68;
+
+
+  color: white;
+}
+
+
+#footer {
+
+  background-color: white;
+
+
+
+}
+
+.footerText {
+  color: rgba(0,0,0,.5);
+}
+
+.fsSpace {
+  padding: 0 1%;
 }
