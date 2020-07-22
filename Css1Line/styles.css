@@ -1,0 +1,81 @@
+.parent {
+  display: grid;
+  place-items: center;
+
+  background: lightblue;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+  resize: both;
+  overflow: auto;
+}
+
+.child {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}
+
+.parent1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background: blue;
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+
+  resize: both;
+  overflow: auto;
+}
+
+.child1 {
+  //  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  //  If we don't want the items to stretch:
+
+  //  If we do want the items to stretch:
+
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 150px; /*  No stretching: */
+  margin: 5px;
+
+  //   etc.
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.sidebars {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  padding: 10px;
+  margin: 0;
+
+  resize: both;
+  overflow: auto;
+}
+
+.sidebar {
+  min-height: 250px;
+  background-color: teal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content {
+    background: lightblue;
+    padding: 1rem;
+}
