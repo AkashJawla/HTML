@@ -56,7 +56,7 @@ $(document).on("keydown",function(e){
 
 function checkAnswer(currentLevel){
   if(userClickedPattern[currentLevel]==gamePattern[currentLevel]){
-    console.log("success");
+    //console.log("success");
     if(gamePattern.length == currentLevel+1){
       userClickedPattern=[];
       setTimeout(nextSequence,1000);
@@ -66,7 +66,7 @@ function checkAnswer(currentLevel){
     playSound("wrong");
     gameOver();
     startOver();
-    console.log("fail");
+    //console.log("fail");
   }
 
 
